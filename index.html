@@ -82,11 +82,10 @@
         }
 
   /* Logika przesuwania - najfajniejsza część */
-  #s1:checked ~ .slides { transform: translateX(0%); }
-  #s2:checked ~ .slides { transform: translateX(-20%); }
-  #s3:checked ~ .slides { transform: translateX(-40%); }
-  #s4:checked ~ .slides { transform: translateX(-60%); }
-  #s5:checked ~ .slides { transform: translateX(-80%); }
+        #s1:checked ~ .slides { transform: translateX(0%); }
+        #s2:checked ~ .slides { transform: translateX(-25%); }
+        #s3:checked ~ .slides { transform: translateX(-50%); }
+        #s4:checked ~ .slides { transform: translateX(-75%); }
         
   /* Wygląd strzałek / kropek na dole */
         .controls {
@@ -112,7 +111,7 @@
   #s2:checked ~ .controls .to-s2,
   #s3:checked ~ .controls .to-s3,
   #s4:checked ~ .controls .to-s4
-  #s5:checked ~ .controls .to-s5{
+ {
     background: #2d54a7;
   }
 
@@ -137,19 +136,19 @@
           <input type="radio" name="slider" id="s2">
           <input type="radio" name="slider" id="s3">
           <input type="radio" name="slider" id="s4">
-          <input type="radio" name="slider" id="s5">
+        
           
         <div class="slides">
-        <div class="slide s1">  <img src="image/G1.jpg" 
+        <div class="slide s1">  <img src="image/G2.jpg" 
          alt="Nu Gundam" 
          style="width: 75%; max-width: 300px; border-radius: 8px; margin: 15px 0; border: 1px solid #30363d;"></div>
-        <div class="slide s2">  <img src="image/G2.jpg"
+        <div class="slide s2">  <img src="image/G3.jpg"
          alt="Nu Gundam" 
          style="width: 75%; max-width: 300px; border-radius: 8px; margin: 15px 0; border: 1px solid #30363d;"></div>
-        <div class="slide s3">  <img src="image/G3.jpg"
+        <div class="slide s3">  <img src="image/G4.jpg"
          alt="Nu Gundam" 
          style="width: 75%; max-width: 300px; border-radius: 8px; margin: 15px 0; border: 1px solid #30363d;"></div>
-        <div class="slide s4">  <img src="image/G4.jpg"
+        <div class="slide s4">  <img src="image/G5.jpg"
          alt="Nu Gundam" 
          style="width: 75%; max-width: 300px; border-radius: 8px; margin: 15px 0; border: 1px solid #30363d;"></div>
           </div>
@@ -163,7 +162,7 @@
             <label for="s2" class="to-s2"></label>
             <label for="s3" class="to-s3"></label>
             <label for="s4" class="to-s4"></label>
-            <label for="s5" class="to-s5"></label>
+           
  
           </div>
           </div>
